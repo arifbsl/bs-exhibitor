@@ -1,0 +1,240 @@
+@font-face{
+    font-family: 'Manrope';
+    src: url('/assets/fonts/Manrope-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'Manrope';
+    src: url('/assets/fonts/Manrope-ExtraBold.ttf');
+}
+
+@font-face{
+    font-family: 'Manrope';
+    src: url('/assets/fonts/Manrope-ExtraLight.ttf');
+}
+
+@font-face{
+    font-family: 'Manrope';
+    src: url('/assets/fonts/Manrope-Light.ttf');
+}
+
+@font-face{
+    font-family: 'Manrope';
+    src: url('/assets/fonts/Manrope-Medium.ttf');
+}
+
+@font-face{
+    font-family: 'Manrope';
+    src: url('/assets/fonts/Manrope-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Manrope';
+    src: url('/assets/fonts/Manrope-SemiBold.ttf');
+}
+@font-face{
+    font-family: 'Helvetica';
+    src: url('/assets/fonts/Helvetica-Bold.ttf');
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Bold.ttf');
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Regular.ttf');
+}
+
+html,body{
+    font-family: Manrope;
+}
+a{
+    color: black;    
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    max-width: 1600px !important;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+/* Header styles */
+
+/* UTILITIES */
+.color-brand{
+    color: #17997d;
+}
+.hero-heading{
+    color: #ffffff;
+    font-family: Manrope;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+
+/* Section header */
+.section-heading{
+    color: #000000;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 700;
+}
+.section-header{
+    display: flex;
+    align-items: center;
+}
+.btn-all{
+    width: 139px;
+    height: 48px;
+    box-shadow: 0 18px 40px rgba(23, 153, 125, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+.c-btn{
+    /* padding: 18px 40px; */
+    /* Style for "Color" */
+    width: 139px;
+    height: 56px;
+    box-shadow: 0 18px 40px rgba(23, 153, 125, 0.1);
+    border-radius: 8px;
+    background-color: #17997d;
+
+
+    color: #ffffff;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/* top menu */
+.logo{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.navbar{
+    background: #17997d;
+    padding: 0;
+}
+
+.nav-link{
+    color:#fff;
+    border-bottom: 5px solid transparent;
+    margin: 0 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color:#fff;
+    border-bottom: 5px solid #fff;
+}
+/* Hero showcase */
+.showcase{
+    background-image:url('/assets/images/Artwork.svg'), linear-gradient(to right bottom,#00775f,#00775f);
+    height: 786px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.showcase-content{
+    height: 786px;
+}
+
+.subscriber{
+    width: 576px;
+    height: 221px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 40px 24px;
+    margin-top: 50px;
+}
+
+.subscriber input{
+    width: 374px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #dedede;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    margin-right: 10px;
+}
+.subscriber label{
+    color: #1b1b1b;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+
+
+/* service card */
+
+.service-content{
+    background: #fff;
+    margin-top: -120px;
+    padding: 24px;
+}
+
+.service-icon{
+    height: 130px; 
+    width:130px;
+    background: #17997d;
+    border-radius: 20px;
+    margin: 12px 0;
+}
+
+
+/* Promo Card */
+.promo-card{
+    /* display: flex; */
+}
+
+.promo-card p{
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.promo-card .text{
+    height: 247px;
+    background: url('/assets/images/Subtraction_1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.off{
+    height: 247px;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* .off:nth-child(even){
+    background-image: url('/assets/images/Promo2.png');
+}
+.off:nth-child(odd){
+    background-image: url('/assets/images/Promo1.png');
+} */
+
